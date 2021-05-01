@@ -30,7 +30,7 @@ Um exemplo do disciplinas.json:
 ```
 Aqui vemos duas entradas de semestres, 2021-1s e 2021-2s, que o scraper usará para fazer a sua busca.
 1. Dentro de cada semestre coloque as siglas de instituto/faculdade, no caso temos "IC" e "IFGW".
-2. Dentro de cada uma dessas chaves, coloque os códigos das disciplinas
+2. Dentro de cada uma dessas siglas, coloque os códigos das disciplinas
 
 E se quisermos verificar mais de uma disciplina dentro dadas no mesmo semestre e instituto?
 Basta separarmos cada um dos códigos com uma vírgula:<br>

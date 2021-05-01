@@ -24,7 +24,7 @@ ou se você estiver usando python3
 ```shell
 $ python -m pip install requests
 ```
-### Guia para preencher as matérias no .json:
+## Guia para preencher as matérias no .json:
 Um exemplo do disciplinas.json:
 
 ```json

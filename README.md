@@ -48,3 +48,4 @@ Basta separarmos cada um dos códigos com uma vírgula:
     }
 }
 ```
+Após as mudanças, basta rodar o app.py novamente

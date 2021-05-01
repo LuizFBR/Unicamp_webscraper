@@ -3,6 +3,26 @@
 Um webscraper que retorna se uma dada matéria foi ou será dada em um semestre.
 Para utiliza-lo basta preencher as materias que você deseja verificar no disciplinas.json e rodar o script app.py.
 
+### Instalando as dependências
+
+Esse webscraper utiliza a biblioteca requests para fazer requisições no servidor da DAC e BeautifulSoup4 para o parsing do HTML retornado na requisição
+
+1. Para instalar o BeautifulSoup:
+```shell
+$ python -m pip install beautifulsoup4
+```
+ou se você estiver usando python3
+```shell
+$ python3 -m pip install beautifulsoup4
+```
+2. Para instalar o requests:
+```shell
+$ python -m pip install requests
+```
+ou se você estiver usando python3
+```shell
+$ python -m pip install requests
+```
 ### Guia para preencher as matérias no .json:
 Um exemplo do disciplinas.json:
 

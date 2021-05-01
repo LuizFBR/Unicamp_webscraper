@@ -2,7 +2,7 @@
 
 Um webscraper que retorna se uma dada matéria foi ou será dada em um semestre.
 Para utiliza-lo basta preencher as materias que você deseja verificar no disciplinas.json e rodar o script app.py.
-Siga [este guia para aprender a preencher as materias] (https://github.com/LuizFBR/Unicamp_webscraper/edit/main/README.md)
+Siga [este guia para aprender a preencher as materias](https://github.com/LuizFBR/Unicamp_webscraper/edit/main/README.md)
 
 ### Instalando as dependências
 

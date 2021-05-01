@@ -18,10 +18,12 @@ Um exemplo do disciplinas.json:
     },
     "2021-2s": {
         "IC": [
-            "MC102"
+            "MC102",
+            "MC202"
         ],
         "IFGW": [
-            "F 328"
+            "F 328",
+            "F 329"
         ]
     }
 }

@@ -36,8 +36,8 @@ def getInstitutesPerSemester(institutes, semester_url):
         print()
 
 
-def getSemestersData(config):
-    for semester in config.keys():
+def getSemestersData(semesters):
+    for semester in semesters.keys():
         year = semester[:4]
         semester_index = semester[5]
         url_semester = "https://www.dac.unicamp.br/portal/caderno-de-horarios/%s/%s/S/G/" % (year,semester_index)
@@ -45,12 +45,11 @@ def getSemestersData(config):
         if isDataOnline(url_semester) == False:
             print("Caderno de horário ainda não disponibilizado")
             continue
-        getInstitutesPerSemester(config[semester], url_semester)
+        getInstitutesPerSemester(semesters[semester], url_semester)
 
 def main():
-    config = readJson('./disciplinas.json')
-    getSemestersData(config)
+    semesters = readJson('./disciplinas.json')
+    getSemestersData(semesters)
 
 if __name__ == "__main__":
     main()
-    #parseDisciplines('https://www.dac.unicamp.br/portal/caderno-de-horarios/2021/1/S/G/IC')
